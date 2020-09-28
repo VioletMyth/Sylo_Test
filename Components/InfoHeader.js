@@ -28,7 +28,7 @@ const InfoHeader = (props) => {
       alignItems: "center",
     },
     backIcon: {
-      flex: 1
+      flex: 1,
     }
   })
 
@@ -41,7 +41,7 @@ const InfoHeader = (props) => {
       margin: 20,
     }}>
       <View>
-        <Ionicons name="ios-arrow-back" size={30} color="black" onPress={changeScreen}/>
+        <Ionicons name="ios-arrow-back" size={30} color={darkTheme ? "#495162":"#F6F6F6"} onPress={changeScreen}/>
       </View>
       <View style={styles.titleContainer}>
         <Image
