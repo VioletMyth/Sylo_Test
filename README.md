@@ -1,3 +1,4 @@
 # SyloTest
-npm install
-npm start
+A react native crypto-currency dashboard.
+### How to run
+First `npm install` then `npm start`.
